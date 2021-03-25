@@ -1,0 +1,125 @@
+@media only screen and (min-width: 769px) {
+  header > #hamMenu {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-desktop {
+    display: block;
+  }
+  .nav-desktop > ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .nav-desktop > ul li {
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .nav-desktop > ul > li > a {
+    text-decoration: none;
+    list-style: none;
+  }
+  .get {
+    color: #fff;
+    background-color: red;
+    border-radius: 50px;
+  }
+  .get:hover {
+    color: red;
+    background-color: #fff;
+  }
+  a:hover {
+    color: red;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .wrapperImg {
+    width: 50%;
+    padding-right: 10px;
+  }
+  .wrapperImg > img {
+    width: 100%;
+  }
+  .wrapperTitle {
+    width: 50%;
+  }
+  .wrapperMachines > h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .wrapperMachines > p {
+    text-align: center;
+  }
+  .machines {
+    display: flex;
+    justify-content: space-between;
+  }
+  .machines > article > p {
+    text-align: left;
+    padding-left: 10px;
+  }
+  .pakingSystem > p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .packaing-mashines {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .packaingArticle {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .productOne,
+  .productSecond,
+  .productThree,
+  .productFour,
+  .productSix {
+    padding-bottom: 20px;
+  }
+  .image {
+    width: 100%;
+  }
+  .productSix > p {
+    text-align: center;
+  }
+  /* .packaing-mashines > .productOne {
+    width: 70%;
+  }
+  .packaing-mashines > .productSecond {
+    width: 30%;
+  }  */
+
+  /* .packaing-mashines > .productThree {
+    width: 60%;
+  }
+  .packaing-mashines > .productFour {
+    width: 40%;
+  } */
+
+  /* .productSix {
+    width: 33.333%;
+  }  */
+  .pharmacyProducts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pharmacyProducts > .pharmacy > article > img {
+    width: 100%;
+  }
+  .pharmacyProducts > .pharmacy > article > a {
+    font-size: 8px;
+  }
+}
